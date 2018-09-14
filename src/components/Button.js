@@ -23,6 +23,7 @@ class Button extends Component {
                     <a
                         href={this.props.url}
                         style={buttonTextStyle}
+                        target="_blank"
                     >
                         get report
                     </a>
