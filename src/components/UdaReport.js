@@ -25,7 +25,7 @@ class UdaReport extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (this.state.token !== null
       && this.state.token !== prevState.token) {
-      getReport(this.state.token)
+      getReport(this.state.token, this.props.data)
         .then(res => {
           this.setState({
             url: res.data.url
@@ -37,6 +37,7 @@ class UdaReport extends Component {
   render() {
     return (
       <Button
+        buttonText={this.props.buttonText}
         url={this.state.url}
         onClickHandler={this.onClickHandler}
       />
