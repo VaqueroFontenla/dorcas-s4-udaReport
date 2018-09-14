@@ -1,3 +1,8 @@
+import { buttonStyles } from '../index.js';
+
+// const { buttonText, buttonTextColor, buttonBackground, buttonBorderColor, buttonBorderWidth, borderRadius } = buttonStyles; 
+
+
 const buttonStyle = {
     margin: '0px',
     display: 'flex',
@@ -5,15 +10,19 @@ const buttonStyle = {
     backgroundColor: '#CA1C24',
     padding: '20px',
     width: '300px',
+    borderColor: ' #B7BCC6',
+    borderWeight: '3px',
+    borderStyle: 'solid',
     borderRadius: '20px',
 }
 
-const buttonTextStyle ={
+const buttonTextStyle = {
     textDecoration: 'none',
-    color: 'white',
+    color: '#FFF',
     fontSize: '30px',
     textTransform: 'uppercase',
-    fontFamily: 'sans-serif'
+    fontFamily: 'sans-serif',
+    fontWeight: '600'
 }
 
 const buttonWrapper = {

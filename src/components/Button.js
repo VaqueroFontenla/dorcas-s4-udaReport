@@ -25,7 +25,7 @@ class Button extends Component {
                         style={buttonTextStyle}
                         target="_blank"
                     >
-                        get report
+                        {this.props.buttonText}
                     </a>
                 </div>
             </div>

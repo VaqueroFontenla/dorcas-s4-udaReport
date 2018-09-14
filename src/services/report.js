@@ -1,9 +1,9 @@
 import request from 'axios';
 
-export function getReport(token) {
+export function getReport(token, data) {
     const reports = {
         url: 'https://reds.urbandataanalytics.com/reds/api/v1.0/report?template=redhouse&async=1&pm=eco&sc=1',
-        data: { 'operation': 1, 'lat': 40.4562923, 'lon': -3.6768079, 'area': 90 },
+        data: data,
         headers: { 'Authorization': `Token ${token}` }
     }
 
