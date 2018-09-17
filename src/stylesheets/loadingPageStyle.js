@@ -10,7 +10,7 @@ const loadingPageContainer = {
 
 const loadingPageHeader = {
     fontFamily: 'Gotham-Medium, Sans Serif',
-    color: '#07090D'
+    color: '#07090D',
 }
 
 const loadingBarWrapper = {
