@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Button from './Button.js'
 import { getToken } from '../services/auth.js';
 import { getReport } from '../services/report.js';
+import LoadingPage from './LoadingPage.js';
 
 class UdaReport extends Component {
   constructor(props) {
@@ -11,6 +12,8 @@ class UdaReport extends Component {
       token: null,
       url: null,
     }
+
+    this.onClickHandler = this.onClickHandler.bind(this)
   }
 
   componentDidMount() {
@@ -22,9 +25,9 @@ class UdaReport extends Component {
       })
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    if (this.state.token !== null
-      && this.state.token !== prevState.token) {
+  onClickHandler() {
+    console.log('Generating report');
+    if (this.state.token !== null) {
       getReport(this.state.token, this.props.data)
         .then(res => {
           this.setState({
@@ -43,6 +46,7 @@ class UdaReport extends Component {
         url={this.state.url}
         onClickHandler={this.onClickHandler}
       />
+      // <LoadingPage />
     );
   }
 }
