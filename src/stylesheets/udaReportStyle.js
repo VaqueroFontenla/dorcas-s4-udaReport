@@ -1,8 +1,5 @@
 import { buttonStyles } from '../index.js';
 
-// const { buttonText, buttonTextColor, buttonBackground, buttonBorderColor, buttonBorderWidth, borderRadius } = buttonStyles; 
-
-
 const buttonStyle = {
     margin: '0px',
     display: 'flex',
@@ -22,7 +19,8 @@ const buttonTextStyle = {
     fontSize: '30px',
     textTransform: 'uppercase',
     fontFamily: 'sans-serif',
-    fontWeight: '600'
+    fontWeight: '600',
+    fontFamily: 'Gotham-Bold, Sans Serif'
 }
 
 const buttonWrapper = {

@@ -31,6 +31,8 @@ class UdaReport extends Component {
             url: res.data.url
           })
         })
+    } else {
+      return null;
     }
   }
 
