@@ -40,9 +40,17 @@ const data = {
     "status": 5
 }
 
+const properties = {
+    assetId: 9903271,
+    template: 'redhouse',
+    prediction: 'ml',
+    style: 'Estilo por defecto uDA'
+}
+
 ReactDOM.render(<UdaReport
     buttonText={buttonText}
     data={data}
+    properties={properties}
 />, document.getElementById('root'));
 
 export { buttonStyles };
