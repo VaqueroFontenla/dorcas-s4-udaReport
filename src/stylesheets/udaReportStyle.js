@@ -2,18 +2,13 @@ const buttonStyle = {
     margin: '0px',
     display: 'flex',
     justifyContent: 'center',
-    backgroundColor: '#CA1C24',
     padding: '20px',
     width: '300px',
-    borderColor: ' #B7BCC6',
-    borderWeight: '3px',
     borderStyle: 'solid',
-    borderRadius: '20px',
 }
 
 const buttonTextStyle = {
     textDecoration: 'none',
-    color: '#FFF',
     fontSize: '30px',
     textTransform: 'uppercase',
     fontFamily: 'sans-serif',

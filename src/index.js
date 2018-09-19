@@ -6,10 +6,10 @@ import './stylesheets/fonts/fonts.css';
 const buttonText = 'get report'
 
 const buttonStyles = {
-    buttonTextColor: '#FFF',
-    buttonBackground: '#CA1C24',
-    buttonBorderColor: '#B7BCC6',
-    buttonBorderWidth: '3px',
+    textColor: '#FFF',
+    background: '#CA1C24',
+    borderColor: '#B7BCC6',
+    borderWeight: '3px',
     borderRadius: '20px'
 }
 

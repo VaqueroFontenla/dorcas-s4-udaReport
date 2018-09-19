@@ -4,10 +4,16 @@ import { buttonStyle, buttonTextStyle, buttonWrapper, adobeIconStyle, adobeIconC
 
 class Button extends Component {
     render() {
+        const { textColor, background, borderColor, borderWeight, borderRadius } = this.props.buttonStyles;
         return (
             <div
                 type="button"
-                style={buttonStyle}
+                style={{
+                    ...buttonStyle, backgroundColor: background,
+                    borderColor: borderColor,
+                    borderWeight: borderWeight,
+                    borderRadius: borderRadius,
+                }}
                 onClick={this.props.onClickHandler}
             >
                 <div
@@ -21,7 +27,7 @@ class Button extends Component {
                         />
                     </div>
                     <span
-                        style={buttonTextStyle}
+                        style={{ ...buttonTextStyle, color: textColor }}
                     >
                         {this.props.buttonText}
                     </span>
