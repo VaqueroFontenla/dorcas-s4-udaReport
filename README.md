@@ -6,13 +6,6 @@ Simple button that launches a request to the reporting API (https://reds.urbanda
 
 Generates a PDF file uDA reporting.
 
-# Getting Started with Uda Report Box
-
-To start with udaReportBox, first, you have to install the npm package.
-
-```sh
-$ npm install --¿Uda Data Box?
-```
 # Props
 
 The props you can configurate are the following ones:
@@ -56,9 +49,7 @@ If they are not defined they have default values.
 # Dependences
 - Axios for API calls (http://pre.urbandataanalytics.com/reds/api)
 - https://www.npmjs.com/package/react-leaflet-control
-# How to use it
 
-**nada porque no hay npm todavía**
 
 # Interesting Data
 **no se me ocurre nada todav´ía**

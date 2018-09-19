@@ -6,10 +6,10 @@ import './stylesheets/fonts/fonts.css';
 const buttonText = 'get report'
 
 const buttonStyles = {
-    buttonTextColor: '#FFF',
-    buttonBackground: '#CA1C24',
-    buttonBorderColor: '#B7BCC6',
-    buttonBorderWidth: '3px',
+    textColor: '#FFF',
+    background: '#CA1C24',
+    borderColor: '#B7BCC6',
+    borderWeight: '3px',
     borderRadius: '20px'
 }
 
@@ -40,9 +40,18 @@ const data = {
     "status": 5
 }
 
+const properties = {
+    assetId: 9903271,
+    template: 'redhouse',
+    prediction: 'ml',
+    style: 'Estilo por defecto uDA'
+}
+
 ReactDOM.render(<UdaReport
     buttonText={buttonText}
+    buttonStyles={buttonStyles}
     data={data}
+    properties={properties}
 />, document.getElementById('root'));
 
 export { buttonStyles };
