@@ -24,7 +24,7 @@ class UdaReport extends Component {
         this.setState({
           token: res.data.authToken,
           assetId: assetID
-        }, () => console.log(this.state.assetId, this.state.token));
+        });
       })
   }
 
