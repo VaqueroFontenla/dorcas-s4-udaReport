@@ -1,6 +1,6 @@
 {
-  "name": "uda-testing",
-  "version": "0.1.5",
+  "name": "uda-report",
+  "version": "0.1.0",
   "dependencies": {
     "axios": "^0.18.0",
     "react-leaflet-control": "^2.0.0"
