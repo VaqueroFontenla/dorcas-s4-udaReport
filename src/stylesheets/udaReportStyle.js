@@ -1,5 +1,3 @@
-import { buttonStyles } from '../index.js';
-
 const buttonStyle = {
     margin: '0px',
     display: 'flex',

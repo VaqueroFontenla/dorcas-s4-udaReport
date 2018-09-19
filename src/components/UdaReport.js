@@ -110,13 +110,15 @@ class UdaReport extends Component {
   }
 
   render() {
+    const { buttonText, buttonStyles } = this.props;
+    const { url } = this.state;
     return (
       <Button
-        buttonText={this.props.buttonText}
-        url={this.state.url}
+        buttonText={buttonText}
+        buttonStyles={buttonStyles}
+        url={url}
         onClickHandler={this.onClickGetReport}
       />
-      // <LoadingPage />
     );
   }
 }

@@ -49,6 +49,7 @@ const properties = {
 
 ReactDOM.render(<UdaReport
     buttonText={buttonText}
+    buttonStyles={buttonStyles}
     data={data}
     properties={properties}
 />, document.getElementById('root'));
