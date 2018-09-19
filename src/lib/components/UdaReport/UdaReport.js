@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Button from './Button.js'
-import { getToken } from '../services/auth.js';
-import { getReportEndpoint, getReportTaskqueue } from '../services/report.js'
+import Button from '../Button/Button.js'
+import { getToken } from '../../services/auth.js';
+import { getReportEndpoint, getReportTaskqueue } from '../../services/report.js'
 
 class UdaReport extends Component {
   constructor(props) {
@@ -9,9 +9,7 @@ class UdaReport extends Component {
 
     this.state = {
       token: null,
-      assetId: null,
       url: null,
-      style: '',
     }
 
     this.onClickGetReport = this.onClickGetReport.bind(this)

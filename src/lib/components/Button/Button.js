@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import AdobeIcon from '../images/adobe-reader-symbol.svg';
-import { buttonStyle, buttonTextStyle, buttonWrapper, adobeIconStyle, adobeIconContainer } from '../stylesheets/udaReportStyle.js';
+import AdobeIcon from '../../images/adobe-reader-symbol.svg';
+import { buttonStyle, buttonTextStyle, buttonWrapper, adobeIconStyle, adobeIconContainer } from './buttonStyle';
 
 class Button extends Component {
     render() {

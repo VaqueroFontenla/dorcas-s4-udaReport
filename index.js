@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UdaReport from './components/UdaReport.js';
-import './stylesheets/fonts/fonts.css';
+import UdaReport from './lib/components/UdaReport/UdaReport.js';
+import './lib/stylesheets/fonts/fonts.css';
 
 const buttonText = 'get report'
 
